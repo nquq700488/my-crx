@@ -1,0 +1,18 @@
+.content {
+  position: fixed;
+  right: 20px;
+  bottom: 30%;
+  width: 66px;
+  height: 66px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  border-radius: 12px;
+  font-weight: 500;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: #42b983;
+  color: #fff;
+}
