@@ -23,7 +23,8 @@ export default defineConfig(({ mode }) => {
       write: !isDev,
       rollupOptions: {
         output: {
-          chunkFileNames: 'assets/[name]-[hash].js',
+          assetsFileNames: 'assets/[name]-[hash].[ext]',
+          // chunkFileNames: 'js/[name]-[hash].js',
         },
       },
     },
